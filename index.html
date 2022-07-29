@@ -1,20 +1,70 @@
 <!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-    
-    <title>Timed Quiz</title>
+    <title>Challenge 4 - A Timed Quiz | CodingNepal</title>
+    <link rel="stylesheet" href="assets/css/style.css"/>
 </head>
 <body>
-    <head>
+   
+    <header class="start_btn"><button>Start Quiz</button></header>
+    
+    <div class="info_box">
+        <div class="info-title"><span>Some Rules of this Quiz</span></div>
+        <ul class="info-list">
+            <li class="info">1. Once you select your answer, it can't be undone.</li>
+            <li class="info">2. You can't select any option once time goes off.</li>
+            <li class="info">3. You will gain seconds with correct answers.</li>
+        </ul>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+    
+    <div class="quiz">
         <header>
-            <h1 class="Welcome"> </h1>
+            <div class="title">Challenge Quiz</div>
+            <div class="timer">
+                <div class="time_left">Time Left</div>
+                <div class="seconds">60</div>
+            </div>
+            <div class="timer_line"></div>
         </header>
-    </head>
-    <script rel="javascript" type="text/js" src="./assets/js/script.js"></script>
+        <section>
+            <div class="que_text">
+                
+            </div>
+            <div class="option_list">
+               
+            </div>
+        </section>
+        
+        <footer>
+            <div class="total_que">
+               
+            </div>
+            <button class="next_btn">Next Que</button>
+        </footer>
+    </div>
+    
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score">
+        
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
 </body>
-
+</html>
 </html>
